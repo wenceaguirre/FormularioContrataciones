@@ -1,0 +1,5 @@
+CREATE TABLE reclutadores (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  nombre TEXT NOT NULL,
+  email TEXT NOT NULL UNIQUE,
+  contrasena TEXT NOT NULL);
